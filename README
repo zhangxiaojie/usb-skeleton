@@ -1,0 +1,16 @@
+usb skeleton 
+I've changed the vendor ID and device ID
+but still cannot probe the device
+instead dmesg shows:
+[20522.123871] usbcore: registered new interface driver skeleton
+
+[20532.110315] usb 6-2: new full speed USB device using uhci_hcd and address 5
+
+[20532.289976] usb 6-2: configuration #1 chosen from 1 choice
+
+[20532.292664] cp210x 6-2:1.0: cp210x converter detected
+
+[20532.410257] usb 6-2: reset full speed USB device using uhci_hcd and address 5
+
+[20532.573756] usb 6-2: cp210x converter now attached to ttyUSB0
+
